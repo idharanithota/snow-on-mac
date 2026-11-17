@@ -91,7 +91,7 @@ The simulation runs at 30 frames per second, polls window geometry approximately
 - Window edges are approximated in short segments, without rounded-corner handling.
 - Moving a window releases its snow instead of carrying the pile.
 - Changing display layout clears the scene; changing Spaces can release snow.
-- No Dock accumulation, snowmen, custom wallpaper or automatic launch at login yet.
+- No Dock accumulation, custom wallpaper or automatic launch at login yet.
 - Browser tabs are not tracked independently; the app tracks whole windows.
 - Automated tests do not validate graphical rendering or interaction.
 
@@ -106,4 +106,4 @@ The simulation runs at 30 frames per second, polls window geometry approximately
 
 ## Author and licensing
 
-Created as Dharani Thota’s macOS learning project with AI-assisted implementation. No open-source license has been selected yet. Choose a license before inviting reuse; publishing source on GitHub alone does not grant an open-source license.
+Created by **Dharani Thota**.
