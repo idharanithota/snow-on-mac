@@ -1,0 +1,16 @@
+name: macOS build and simulation tests
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test snow simulation
+        run: ./scripts/test.sh
+      - name: Build macOS app
+        run: ./scripts/build.sh

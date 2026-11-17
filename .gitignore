@@ -1,0 +1,16 @@
+# Build products and compiler caches
+/build/
+/.build/
+/dist/
+*.app/
+*.dSYM/
+# macOS and editors
+.DS_Store
+._*
+xcuserdata/
+*.xcuserstate
+.vscode/
+.idea/
+# Local secrets
+.env
+.env.*
